@@ -48,8 +48,8 @@ Refer to the project's wiki for detailed instructions on data collection, model 
 Additional Resources:
 For further inquiries or assistance, please contact:
 
-Project Supervisor: [Name]
-Project Team Lead: [Name]
-Email: [Email Address]
+Project Supervisor: [DR. SHAHRUM SHAH BIN ABDULLAH]
+Project Team Lead: [DANISH SYAZANI BIN MOHD ZAKIR]
+Email: [danishsyazani@graduate.utm.my]
 Slack Channel: [#food-quality-control-project]
 Note: This README serves as an initial guide to the Food Quality Control project for the SECJ3553-15 KEPINTARAN BUATAN (ARTIFICIAL INTELLIGENCE) subject. It will be periodically updated with additional information and resources.
