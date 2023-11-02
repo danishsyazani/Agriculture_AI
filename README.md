@@ -1,5 +1,5 @@
-
 Food Quality Control Project - SECJ3553-15 KEPINTARAN BUATAN (ARTIFICIAL INTELLIGENCE)
+
 Project Overview:
 The Food Quality Control project is a comprehensive application of Artificial Intelligence (AI) in the domain of food processing and packaging. This project aims to implement AI-driven solutions to ensure that the final food products meet high-quality standards. Through the integration of cutting-edge technologies, the system will facilitate efficient and reliable quality control measures in the food industry.
 
