@@ -1,55 +1,50 @@
-Food Quality Control Project - SECJ3553-15 KEPINTARAN BUATAN (ARTIFICIAL INTELLIGENCE)
+Plant Disease Detection using AI
+Overview
+This repository contains a comprehensive implementation of a Plant Disease Detection system using Artificial Intelligence (AI). The system leverages Convolutional Neural Networks (CNNs) to perform leaf detection and diseases classification in crops. The goal is to provide farmers with a tool that enables early detection of diseases, aiding in timely and targeted interventions for crop health management.
 
-Project Overview:
-The Food Quality Control project is a comprehensive application of Artificial Intelligence (AI) in the domain of food processing and packaging. This project aims to implement AI-driven solutions to ensure that the final food products meet high-quality standards. Through the integration of cutting-edge technologies, the system will facilitate efficient and reliable quality control measures in the food industry.
+Key Features
+Model Training: Utilizes a diverse dataset of annotated crop images for training the CNN model.
+Leaf Detection and Diseases Classification: Trains specific sub-models for accurate leaf detection and diseases classification.
+Embedded Hardware Integration: Optimizes the models for deployment on embedded hardware, facilitating real-time processing.
+Real-Time Video Processing: Integrates with a camera to process real-time video feeds, enabling on-the-fly detection in the field.
+Output Alerts: Alerts farmers upon the detection of crop diseases, providing information on the location and severity of issues.
+Continuous Monitoring: Establishes mechanisms for continuous monitoring and model updates based on new data.
+Usage
+Prerequisites
+Python 3.x
+Required Python packages (specified in requirements.txt)
 
-Key Objectives:
-Implement AI Algorithms: Develop and deploy advanced AI algorithms capable of analyzing various aspects of food products to identify quality issues.
+Installation
 
-Real-time Monitoring: Enable real-time monitoring of the food processing and packaging stages to detect any anomalies or deviations from quality standards.
+Clone the repository:
+git clone https://github.com/your-username/plant-disease-detection.git
+cd plant-disease-detection
+Install dependencies:
 
-Data Integration: Integrate data from multiple sources, including sensors, cameras, and production records, to provide a comprehensive view of the quality control process.
+pip install -r requirements.txt
+Model Training
+Prepare your dataset and ensure proper labeling.
 
-Feedback Loop: Establish a feedback loop to continuously improve the AI model's accuracy and effectiveness in identifying quality issues.
+Execute the model training script:
 
-Technologies Used:
-Machine Learning: Utilize machine learning techniques for training the AI model on large datasets of food product images and quality parameters.
+python train_model.py --dataset_path /path/to/dataset
+Embedded Hardware Integration
+Choose appropriate embedded hardware (e.g., edge computing devices).
+Deploy the optimized models to the hardware.
+Real-Time Video Processing
+Connect a camera to the embedded hardware.
 
-Computer Vision: Implement computer vision algorithms to process visual data from cameras installed in the production line.
+Run the real-time video processing script:
 
-Sensor Integration: Integrate sensor data for additional insights into the quality of food products.
+python real_time_processing.py
+Continuous Monitoring and Updates
+Establish a system for continuous monitoring, providing feedback on model performance.
 
-Data Analytics: Employ data analytics tools to process and analyze the integrated data for quality control assessments.
+Periodically update the models based on new data:
 
-Project Components:
-Data Collection and Preparation: Gather a diverse dataset of food product images along with corresponding quality labels for training the AI model.
+python update_models.py --new_data /path/to/new_data
+Contributions
+Contributions are welcome! If you have ideas for improvements or encounter issues, please open an issue or submit a pull request.
 
-AI Model Development: Train and fine-tune the AI model using machine learning techniques, focusing on accuracy and real-time processing capabilities.
-
-Integration with Production Line: Integrate the AI system into the food processing and packaging line, ensuring seamless communication with existing equipment and systems.
-
-Real-time Monitoring Dashboard: Develop a user-friendly dashboard for operators to monitor the quality control process in real-time.
-
-Feedback Mechanism: Implement a feedback mechanism to capture operator inputs and incorporate them into the model retraining process.
-
-Stakeholders:
-Department of Agriculture Malaysia (DOA): Key regulatory body involved in shaping the agricultural landscape, providing valuable insights into industry standards and regulations.
-
-Food Processors and Packaging Manufacturers: Direct beneficiaries of the project, actively involved in the production process.
-
-Regulatory Bodies: Entities responsible for overseeing and enforcing quality standards in the food industry.
-
-Getting Started:
-To begin working on this project, follow these steps:
-
-Clone the repository to your local environment.
-Install the necessary dependencies as outlined in the project documentation.
-Refer to the project's wiki for detailed instructions on data collection, model training, and system integration.
-Additional Resources:
-For further inquiries or assistance, please contact:
-
-Project Supervisor: [DR. SHAHRUM SHAH BIN ABDULLAH]
-Project Team Lead: [DANISH SYAZANI BIN MOHD ZAKIR]
-Email: [danishsyazani@graduate.utm.my]
-Slack Channel: [#food-quality-control-project]
-Note: This README serves as an initial guide to the Food Quality Control project for the SECJ3553-15 KEPINTARAN BUATAN (ARTIFICIAL INTELLIGENCE) subject. It will be periodically updated with additional information and resources.
+License
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the code for your purposes.
